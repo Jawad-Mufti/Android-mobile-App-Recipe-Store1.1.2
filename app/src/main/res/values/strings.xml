@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recipe Store </string>
+    <string name="btn_new_activity">Create Recipe</string>
+    <string name="btn_get_http">Get Recipe</string>
+    <string name="splash">Welcome to the Recipe store system</string>
+    <string name="btn_book">Recipes</string>
+    <string name="btn_findRecipeById">find Recipe by ID</string>
+
+
+
+</resources>

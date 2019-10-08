@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="se.chalmers.cse.dit341.group00.PostRecipeActivity">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#e0e0e0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/toexdftView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="  Add new Recipe"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:layout_width="366dp"
+                android:layout_height="1465dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="vertical"
+
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/texdftView"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="description" />
+
+                    <EditText
+                        android:id="@+id/editTextDescription"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="18dp"
+                        android:layout_weight="1"
+                        android:background="#bdf8f7fa"
+                        android:inputType="text"
+                        android:textColor="#424242" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/texdftfView"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="image" />
+
+                    <EditText
+                        android:id="@+id/editTextImage"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="18dp"
+                        android:layout_weight="1"
+                        android:background="#bdf8f7fa"
+                        android:ems="10"
+                        android:inputType="text" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/RtexdftView"
+                        android:layout_width="107dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="title" />
+
+                    <EditText
+                        android:id="@+id/editTextTitle"
+                        android:layout_width="194dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="18dp"
+                        android:layout_weight="1"
+                        android:background="#bdf8f7fa"
+                        android:ems="10"
+                        android:inputType="text" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp">
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="6dp"
+
+                        android:text="Save"
+                        android:textColor="#383737" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
